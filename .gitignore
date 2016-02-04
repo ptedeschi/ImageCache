@@ -234,3 +234,6 @@ _Pvt_Extensions
 
 # FAKE - F# Make
 .fake/
+
+#EXCEPTIONS
+!NuGet.dll #Except for NuGet.dll

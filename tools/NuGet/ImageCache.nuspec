@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>ImageCache</id>
+	<title>Image Cache</title>
+    <version>1.0.0</version>
+    <authors>Patrick Tedeschi</authors>
+    <owners>Patrick Tedeschi</owners>
+    <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
+    <projectUrl>https://github.com/ptedeschi/ImageCache</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>ImageCache library for Universal Windows Platform (UWP).</description>
+    <copyright>Copyright (c) 2016 Patrick Tedeschi.</copyright>
+    <tags>Windows10 UWP Cache Image Crop</tags>
+    <dependencies>
+    </dependencies>
+  </metadata>
+  <files>
+    <!-- The double wildcard will also grab all the resource files and the resource subdirectory. -->
+	<file src="..\..\source\ImageCache\bin\Release\ImageCache**" target="lib\uap10.0" />
+  </files>
+</package>
